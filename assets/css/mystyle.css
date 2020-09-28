@@ -1,0 +1,228 @@
+body {
+    font-family: CabinCondensed;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+main{
+    
+}
+.navbar-brand img{
+    max-height: 75px;
+}
+.bg-menu{
+    background-color: #ffffff;
+    padding: 0;
+}
+.nav-item{
+    padding: 0 20px;
+    position: relative;
+    margin: 0 7px;
+    transition: background-color .3s;
+}
+.nav-item:first-child{
+    margin-left: 0!important;
+}
+.nav-item a{
+    color: #757575;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav-item.active a, .nav-item:hover a{
+    color: #f8981c;
+}
+.carousel-item{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-item::after{
+    content: " ";
+    background-color: #000000;
+}
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+}
+.carousel-caption h1{
+    font-size: 68px;
+    font-weight: 600;
+}
+.btn-viewmore{
+    background-color: #f8981c;
+    color: #ffffff;
+    border-radius: 0;
+}
+.btn-viewmore:hover{
+    background-color: #757575 !important;
+    color: #ffffff;
+    border:.2rem solid #f8981c;
+    padding: .35rem 1rem;
+}
+.bg-feature{
+    background-image: url('../images/feature-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-content.default{
+    background-color: rgb(242, 242, 242);
+}
+.box-feature{
+    padding-bottom: 15px;
+}
+.text-white{    
+    color: #fff;
+}
+.title-box{
+    padding: 0 0 30px;
+}
+.img-responsive{
+    max-width: 100%;
+}
+.bg-membership{
+    background-image: url('../images/membership-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-membership{
+    color: #ffffff;
+    line-height: 1.6;
+}
+.box-membership ul{
+    padding: 0;
+    list-style: none;
+}
+.box-membership ul li{
+    margin-bottom: .6em;
+}
+.box-membership ul li i{
+    color: #f8981c;
+    margin-right: 10px;
+}
+.box-comment{
+    color: #fff;
+}
+.box-comment h3{
+    color: #f8981c;
+    font-style: italic;
+}
+.box-news{    
+    margin-bottom: 30px;
+}
+.box-news a{
+    color: #1c1c1c;
+}
+.box-news a:hover{
+    text-decoration: none;
+}
+.box-news a .text{
+    padding: 10px 0;
+}
+.box-news a .text h5:hover{
+    color: #f8981c;
+}
+.box-news a .image{    
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;    
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 180px;
+}
+.box-news a:hover .image img{
+    transform: scale(1.1);
+    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+}
+.box-news a .image img{
+    transition: opacity 0.3s, transform 0.3s, background-color 0.3s;
+}
+.is-divider{
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: .5em 0 .5em;
+    width: 100%;
+    max-width: 30px;
+    height: 3px;
+}
+.bg-footer{
+    background-image: url('../images/bg-foot.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.content-footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #a4a4a4;
+}
+.list-foot{
+    padding: 0;
+    list-style: none;
+    color: #a4a4a4;
+}
+.list-foot li{
+    font-weight: normal;
+}
+.list-foot li i{
+    color: #ffffff;
+    min-width: 35px;
+}
+.list-foot-table{    
+    display: grid;
+    grid-template-columns: repeat(3, 35%);
+    padding: 0;
+}
+.list-foot-table li{
+    list-style: none;
+    margin-bottom: .3em;
+    text-align: left;
+    margin: 0;
+}
+.list-foot-table li a{
+    color: #a4a4a4;
+}
+.list-foot-table li a:hover,
+.list-link a:hover{
+    color: #f8981c;
+    text-decoration: none;
+}
+.list-link a{
+    color: #a4a4a4;
+    margin-right: 2rem;
+}
+.footer-primary{
+    background-color: #000000;
+    color: #a4a4a4;
+    text-align: center;
+    padding: 10px;
+}
+.bg-introduce{
+    background: url('../images/slide-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page-title-inner{
+    min-height: 300px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-news{
+    background-image: url('../images/membership-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-body{
+    padding: 10px!important
+}
+.new-shadow{
+    box-shadow: 0 1px 3px -2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}

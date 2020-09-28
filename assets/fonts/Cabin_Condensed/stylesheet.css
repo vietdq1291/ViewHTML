@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'CabinCondensed';
+  src: url('CabinCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CabinCondensed';
+  src: url('CabinCondensed-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CabinCondensed';
+  src: url('CabinCondensed-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
